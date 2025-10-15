@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://bj.gitlab.cnlive.com/ios-team/CNLiveRepos.git'
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNLiveSportsModule_Example' do
+  pod 'CNLiveSportsModule', :path => '../'
+
+  target 'CNLiveSportsModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
